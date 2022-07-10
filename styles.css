@@ -205,7 +205,10 @@ footer h3{
     border-radius: 80%; */
     transition: color 0.65s;
 }
-.follow-links li:hover{
+.follow-links li a{
+    color:black;
+}
+.follow-links li a:hover{
     color: white;
     /* background-color: black; */
 }
