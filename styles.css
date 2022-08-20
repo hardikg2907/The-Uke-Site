@@ -72,6 +72,8 @@ a:hover{
 /* -------offers------- */
 #offers{
     margin-top: 100px;
+    height: auto;
+    margin-bottom: -150px;
 }
 .offer-imgs{
     display: flex;
