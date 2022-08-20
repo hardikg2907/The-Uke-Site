@@ -100,3 +100,14 @@ scrollLinks.forEach(function(link){
     })
   })
 })
+
+// document.addEventListener("click", function(e){
+//   let cursorX = e.pageX;
+//   let cursorY = e.pageY;
+
+//   const lilBtn = document.querySelector(".little-btn");
+
+//   console.log(cursorX+" "+ cursorY);
+//   lilBtn.style.top = cursorY+"px";
+//   lilBtn.style.left = cursorX+"px";
+// })
