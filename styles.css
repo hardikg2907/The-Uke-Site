@@ -213,6 +213,9 @@ footer h3{
 .copy{
     margin-top:0px;
 }
+footer p a{
+    color: black;
+}
 
 /* little dot
 .little-dot{
@@ -231,7 +234,7 @@ footer h3{
     /* For tablets */
     .offer-imgs img{
         width: auto;
-        max-width: 12.5rem;
+        max-width: 10.5rem;
         height: auto;
     }
 }
