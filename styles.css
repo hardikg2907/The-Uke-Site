@@ -73,14 +73,13 @@ a:hover{
 #offers{
     margin-top: 100px;
     height: auto;
-    margin-bottom: -150px;
 }
 .offer-imgs{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    height:250px;
+    height:auto;
 }
 .offer-imgs img{
     width:12.5em;
@@ -94,13 +93,12 @@ a:hover{
 }
 
 /* -------new arrivals------- */
-#newarrivals{
-    margin-top: 120px;
-}
+
 .new-arr-items-container{
 display: flex;
   justify-content: space-around;
   align-items: space-around;
+  flex-wrap: wrap;
   width: 100%;
 }
 .new-arrival-item{
@@ -228,3 +226,12 @@ footer h3{
     transition: all 0.5s;
     z-index:100;
 } */
+
+@media only screen and (max-width: 768px){
+    /* For tablets */
+    .offer-imgs img{
+        width: auto;
+        max-width: 12.5rem;
+        height: auto;
+    }
+}
